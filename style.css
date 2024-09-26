@@ -35,9 +35,35 @@ h1{
 }
 
 .kalender{
-    border: 5px solid black;
+/*     border: 5px solid black;*/    
+    margin: auto;
+    width: 70%;
 }
 
 th{
+    background-color: lightgrey;
     border: 1px solid red;
+    padding: 10px;
+}
+
+table{
+    border-spacing: 0px;
+    border:4px solid black;
+    margin-top: 50px;
+    font-size: 200%;
+    min-height: 400px;
+    
+}
+
+td{
+    border: 1px solid red;
+    background-color: bisque;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.red-date{
+    color: red;
 }
